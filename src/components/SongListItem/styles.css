@@ -1,0 +1,22 @@
+.SongListItem {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SongListItem span {
+  display: block;
+  transition: 0.3s;
+}
+
+.SongListItem.selected {
+  background-color: darkslategray;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.SongListItem.selected span {
+  margin-left: 7.5%;
+  transform: scale(1.1);
+}
