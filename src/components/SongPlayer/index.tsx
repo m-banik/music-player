@@ -29,7 +29,7 @@ export const SongPlayer: React.FC<SongPlayerPropsType> = ({
       </audio>
       <div>
         <button onClick={handlePlay}>Play</button>
-        <button onClick={handlePause}>Play</button>
+        <button onClick={handlePause}>Pause</button>
       </div>
     </section>
   );
